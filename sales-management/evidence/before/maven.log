@@ -1,0 +1,1042 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< vn.edu.fpt.swt301:sales-management >-----------------
+[INFO] Building sales-management 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (prepare-agent) @ sales-management ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+Progress (1): 0.9/247 kB
+Progress (1): 2.3/247 kB
+Progress (1): 3.2/247 kB
+Progress (1): 4.5/247 kB
+Progress (1): 5.9/247 kB
+Progress (1): 7.3/247 kB
+Progress (1): 8.7/247 kB
+Progress (1): 10/247 kB 
+Progress (1): 11/247 kB
+Progress (1): 13/247 kB
+Progress (1): 14/247 kB
+Progress (1): 15/247 kB
+Progress (1): 17/247 kB
+Progress (1): 18/247 kB
+Progress (1): 20/247 kB
+Progress (1): 21/247 kB
+Progress (1): 22/247 kB
+Progress (1): 24/247 kB
+Progress (1): 25/247 kB
+Progress (1): 26/247 kB
+Progress (1): 28/247 kB
+Progress (1): 29/247 kB
+Progress (1): 31/247 kB
+Progress (1): 32/247 kB
+Progress (1): 33/247 kB
+Progress (1): 35/247 kB
+Progress (1): 36/247 kB
+Progress (1): 37/247 kB
+Progress (1): 39/247 kB
+Progress (1): 40/247 kB
+Progress (1): 42/247 kB
+Progress (1): 43/247 kB
+Progress (1): 44/247 kB
+Progress (1): 46/247 kB
+Progress (1): 47/247 kB
+Progress (1): 48/247 kB
+Progress (1): 50/247 kB
+Progress (1): 51/247 kB
+Progress (1): 52/247 kB
+Progress (1): 54/247 kB
+Progress (1): 55/247 kB
+Progress (1): 59/247 kB
+Progress (1): 61/247 kB
+Progress (1): 65/247 kB
+Progress (1): 69/247 kB
+Progress (1): 73/247 kB
+Progress (1): 77/247 kB
+Progress (1): 82/247 kB
+Progress (1): 86/247 kB
+Progress (1): 90/247 kB
+Progress (1): 94/247 kB
+Progress (1): 99/247 kB
+Progress (1): 103/247 kB
+Progress (1): 107/247 kB
+Progress (1): 111/247 kB
+Progress (1): 115/247 kB
+Progress (1): 120/247 kB
+Progress (1): 124/247 kB
+Progress (1): 128/247 kB
+Progress (1): 132/247 kB
+Progress (1): 137/247 kB
+Progress (1): 141/247 kB
+Progress (1): 145/247 kB
+Progress (1): 149/247 kB
+Progress (1): 154/247 kB
+Progress (1): 158/247 kB
+Progress (1): 162/247 kB
+Progress (1): 166/247 kB
+Progress (1): 170/247 kB
+Progress (1): 175/247 kB
+Progress (1): 179/247 kB
+Progress (1): 183/247 kB
+Progress (1): 187/247 kB
+Progress (1): 192/247 kB
+Progress (1): 196/247 kB
+Progress (1): 200/247 kB
+Progress (1): 204/247 kB
+Progress (1): 209/247 kB
+Progress (1): 213/247 kB
+Progress (1): 217/247 kB
+Progress (1): 221/247 kB
+Progress (1): 238/247 kB
+Progress (1): 247 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar (247 kB at 234 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.12/org.jacoco.core-0.8.12.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar
+Progress (1): 3.2/11 kB
+Progress (1): 11 kB    
+Progress (2): 11 kB | 0.9/302 kB
+Progress (2): 11 kB | 2.3/302 kB
+Progress (2): 11 kB | 3.2/302 kB
+Progress (2): 11 kB | 4.5/302 kB
+Progress (2): 11 kB | 5.9/302 kB
+Progress (2): 11 kB | 7.3/302 kB
+Progress (3): 11 kB | 7.3/302 kB | 0.9/125 kB
+Progress (3): 11 kB | 8.6/302 kB | 0.9/125 kB
+Progress (3): 11 kB | 8.6/302 kB | 2.3/125 kB
+Progress (3): 11 kB | 10/302 kB | 2.3/125 kB 
+Progress (3): 11 kB | 10/302 kB | 3.6/125 kB
+Progress (3): 11 kB | 11/302 kB | 3.6/125 kB
+Progress (3): 11 kB | 13/302 kB | 3.6/125 kB
+Progress (3): 11 kB | 14/302 kB | 3.6/125 kB
+Progress (3): 11 kB | 14/302 kB | 5.0/125 kB
+Progress (3): 11 kB | 14/302 kB | 6.4/125 kB
+Progress (3): 11 kB | 15/302 kB | 6.4/125 kB
+Progress (3): 11 kB | 15/302 kB | 7.7/125 kB
+Progress (3): 11 kB | 17/302 kB | 7.7/125 kB
+Progress (3): 11 kB | 17/302 kB | 9.1/125 kB
+Progress (3): 11 kB | 18/302 kB | 9.1/125 kB
+Progress (3): 11 kB | 18/302 kB | 10/125 kB 
+Progress (3): 11 kB | 20/302 kB | 10/125 kB
+Progress (3): 11 kB | 20/302 kB | 12/125 kB
+Progress (3): 11 kB | 20/302 kB | 13/125 kB
+Progress (3): 11 kB | 20/302 kB | 15/125 kB
+Progress (3): 11 kB | 20/302 kB | 16/125 kB
+Progress (3): 11 kB | 20/302 kB | 17/125 kB
+Progress (3): 11 kB | 20/302 kB | 19/125 kB
+Progress (3): 11 kB | 21/302 kB | 19/125 kB
+Progress (3): 11 kB | 21/302 kB | 20/125 kB
+Progress (3): 11 kB | 22/302 kB | 20/125 kB
+Progress (3): 11 kB | 22/302 kB | 21/125 kB
+Progress (3): 11 kB | 24/302 kB | 21/125 kB
+Progress (3): 11 kB | 25/302 kB | 21/125 kB
+Progress (3): 11 kB | 25/302 kB | 23/125 kB
+Progress (3): 11 kB | 26/302 kB | 23/125 kB
+Progress (3): 11 kB | 28/302 kB | 23/125 kB
+Progress (3): 11 kB | 28/302 kB | 24/125 kB
+Progress (3): 11 kB | 28/302 kB | 26/125 kB
+Progress (3): 11 kB | 29/302 kB | 26/125 kB
+Progress (3): 11 kB | 31/302 kB | 26/125 kB
+Progress (4): 11 kB | 31/302 kB | 26/125 kB | 0.9/10 kB
+Progress (4): 11 kB | 31/302 kB | 26/125 kB | 2.3/10 kB
+Progress (4): 11 kB | 31/302 kB | 26/125 kB | 3.6/10 kB
+Progress (4): 11 kB | 31/302 kB | 26/125 kB | 5.0/10 kB
+Progress (4): 11 kB | 31/302 kB | 26/125 kB | 6.4/10 kB
+Progress (4): 11 kB | 32/302 kB | 26/125 kB | 6.4/10 kB
+Progress (4): 11 kB | 32/302 kB | 27/125 kB | 6.4/10 kB
+Progress (4): 11 kB | 32/302 kB | 27/125 kB | 7.7/10 kB
+Progress (4): 11 kB | 32/302 kB | 27/125 kB | 9.1/10 kB
+Progress (4): 11 kB | 32/302 kB | 27/125 kB | 10 kB    
+Progress (4): 11 kB | 32/302 kB | 28/125 kB | 10 kB
+Progress (4): 11 kB | 33/302 kB | 28/125 kB | 10 kB
+Progress (4): 11 kB | 33/302 kB | 30/125 kB | 10 kB
+Progress (4): 11 kB | 35/302 kB | 30/125 kB | 10 kB
+Progress (4): 11 kB | 35/302 kB | 31/125 kB | 10 kB
+Progress (4): 11 kB | 36/302 kB | 31/125 kB | 10 kB
+Progress (4): 11 kB | 36/302 kB | 32/125 kB | 10 kB
+Progress (4): 11 kB | 37/302 kB | 32/125 kB | 10 kB
+Progress (4): 11 kB | 39/302 kB | 32/125 kB | 10 kB
+Progress (4): 11 kB | 39/302 kB | 34/125 kB | 10 kB
+Progress (4): 11 kB | 40/302 kB | 34/125 kB | 10 kB
+Progress (4): 11 kB | 40/302 kB | 35/125 kB | 10 kB
+Progress (4): 11 kB | 41/302 kB | 35/125 kB | 10 kB
+Progress (4): 11 kB | 41/302 kB | 36/125 kB | 10 kB
+Progress (4): 11 kB | 43/302 kB | 36/125 kB | 10 kB
+Progress (4): 11 kB | 43/302 kB | 38/125 kB | 10 kB
+Progress (4): 11 kB | 44/302 kB | 38/125 kB | 10 kB
+Progress (4): 11 kB | 44/302 kB | 39/125 kB | 10 kB
+Progress (4): 11 kB | 46/302 kB | 39/125 kB | 10 kB
+Progress (4): 11 kB | 46/302 kB | 41/125 kB | 10 kB
+Progress (4): 11 kB | 47/302 kB | 41/125 kB | 10 kB
+Progress (5): 11 kB | 47/302 kB | 41/125 kB | 10 kB | 0.9/210 kB
+Progress (5): 11 kB | 47/302 kB | 41/125 kB | 10 kB | 2.3/210 kB
+Progress (5): 11 kB | 47/302 kB | 41/125 kB | 10 kB | 3.6/210 kB
+Progress (5): 11 kB | 47/302 kB | 41/125 kB | 10 kB | 5.0/210 kB
+Progress (5): 11 kB | 47/302 kB | 41/125 kB | 10 kB | 6.4/210 kB
+Progress (5): 11 kB | 47/302 kB | 41/125 kB | 10 kB | 7.7/210 kB
+Progress (5): 11 kB | 47/302 kB | 42/125 kB | 10 kB | 7.7/210 kB
+Progress (5): 11 kB | 47/302 kB | 42/125 kB | 10 kB | 9.1/210 kB
+Progress (5): 11 kB | 47/302 kB | 43/125 kB | 10 kB | 9.1/210 kB
+Progress (5): 11 kB | 48/302 kB | 43/125 kB | 10 kB | 9.1/210 kB
+Progress (5): 11 kB | 48/302 kB | 43/125 kB | 10 kB | 10/210 kB 
+Progress (5): 11 kB | 48/302 kB | 45/125 kB | 10 kB | 10/210 kB
+Progress (5): 11 kB | 48/302 kB | 45/125 kB | 10 kB | 12/210 kB
+Progress (5): 11 kB | 50/302 kB | 45/125 kB | 10 kB | 12/210 kB
+Progress (5): 11 kB | 50/302 kB | 46/125 kB | 10 kB | 12/210 kB
+Progress (5): 11 kB | 50/302 kB | 46/125 kB | 10 kB | 13/210 kB
+Progress (5): 11 kB | 51/302 kB | 46/125 kB | 10 kB | 13/210 kB
+Progress (5): 11 kB | 51/302 kB | 46/125 kB | 10 kB | 15/210 kB
+Progress (5): 11 kB | 51/302 kB | 47/125 kB | 10 kB | 15/210 kB
+Progress (5): 11 kB | 52/302 kB | 47/125 kB | 10 kB | 15/210 kB
+Progress (5): 11 kB | 52/302 kB | 47/125 kB | 10 kB | 16/210 kB
+Progress (5): 11 kB | 52/302 kB | 49/125 kB | 10 kB | 16/210 kB
+Progress (5): 11 kB | 54/302 kB | 49/125 kB | 10 kB | 16/210 kB
+Progress (5): 11 kB | 55/302 kB | 49/125 kB | 10 kB | 16/210 kB
+Progress (5): 11 kB | 55/302 kB | 50/125 kB | 10 kB | 16/210 kB
+Progress (5): 11 kB | 55/302 kB | 50/125 kB | 10 kB | 17/210 kB
+Progress (5): 11 kB | 55/302 kB | 52/125 kB | 10 kB | 17/210 kB
+Progress (5): 11 kB | 55/302 kB | 52/125 kB | 10 kB | 19/210 kB
+Progress (5): 11 kB | 55/302 kB | 53/125 kB | 10 kB | 19/210 kB
+Progress (5): 11 kB | 55/302 kB | 54/125 kB | 10 kB | 19/210 kB
+Progress (5): 11 kB | 55/302 kB | 54/125 kB | 10 kB | 20/210 kB
+Progress (5): 11 kB | 55/302 kB | 56/125 kB | 10 kB | 20/210 kB
+Progress (5): 11 kB | 55/302 kB | 56/125 kB | 10 kB | 21/210 kB
+Progress (5): 11 kB | 55/302 kB | 56/125 kB | 10 kB | 23/210 kB
+Progress (5): 11 kB | 59/302 kB | 56/125 kB | 10 kB | 23/210 kB
+Progress (5): 11 kB | 59/302 kB | 56/125 kB | 10 kB | 24/210 kB
+Progress (5): 11 kB | 59/302 kB | 56/125 kB | 10 kB | 25/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 25/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 27/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 28/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 30/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 31/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 32/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 34/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 35/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 36/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 38/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 39/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 41/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 42/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 43/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 45/210 kB
+Progress (5): 11 kB | 59/302 kB | 60/125 kB | 10 kB | 46/210 kB
+Progress (5): 11 kB | 64/302 kB | 60/125 kB | 10 kB | 46/210 kB
+Progress (5): 11 kB | 64/302 kB | 60/125 kB | 10 kB | 47/210 kB
+Progress (5): 11 kB | 64/302 kB | 60/125 kB | 10 kB | 49/210 kB
+Progress (5): 11 kB | 68/302 kB | 60/125 kB | 10 kB | 49/210 kB
+Progress (5): 11 kB | 68/302 kB | 64/125 kB | 10 kB | 49/210 kB
+Progress (5): 11 kB | 68/302 kB | 64/125 kB | 10 kB | 50/210 kB
+Progress (5): 11 kB | 68/302 kB | 64/125 kB | 10 kB | 51/210 kB
+Progress (5): 11 kB | 68/302 kB | 64/125 kB | 10 kB | 53/210 kB
+Progress (5): 11 kB | 68/302 kB | 64/125 kB | 10 kB | 54/210 kB
+Progress (5): 11 kB | 72/302 kB | 64/125 kB | 10 kB | 54/210 kB
+Progress (5): 11 kB | 72/302 kB | 64/125 kB | 10 kB | 56/210 kB
+Progress (5): 11 kB | 72/302 kB | 64/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 72/302 kB | 68/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 76/302 kB | 68/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 81/302 kB | 68/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 81/302 kB | 73/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 85/302 kB | 73/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 85/302 kB | 77/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 89/302 kB | 77/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 89/302 kB | 81/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 93/302 kB | 81/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 93/302 kB | 85/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 93/302 kB | 89/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 93/302 kB | 94/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 97/302 kB | 94/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 102/302 kB | 94/125 kB | 10 kB | 60/210 kB
+Progress (5): 11 kB | 102/302 kB | 94/125 kB | 10 kB | 64/210 kB
+Progress (5): 11 kB | 102/302 kB | 98/125 kB | 10 kB | 64/210 kB
+Progress (5): 11 kB | 106/302 kB | 98/125 kB | 10 kB | 64/210 kB
+Progress (5): 11 kB | 106/302 kB | 98/125 kB | 10 kB | 68/210 kB
+Progress (5): 11 kB | 106/302 kB | 102/125 kB | 10 kB | 68/210 kB
+Progress (5): 11 kB | 110/302 kB | 102/125 kB | 10 kB | 68/210 kB
+Progress (5): 11 kB | 114/302 kB | 102/125 kB | 10 kB | 68/210 kB
+Progress (5): 11 kB | 114/302 kB | 106/125 kB | 10 kB | 68/210 kB
+Progress (5): 11 kB | 114/302 kB | 106/125 kB | 10 kB | 73/210 kB
+Progress (5): 11 kB | 119/302 kB | 106/125 kB | 10 kB | 73/210 kB
+Progress (5): 11 kB | 119/302 kB | 111/125 kB | 10 kB | 73/210 kB
+Progress (5): 11 kB | 123/302 kB | 111/125 kB | 10 kB | 73/210 kB
+Progress (5): 11 kB | 126/302 kB | 111/125 kB | 10 kB | 73/210 kB
+Progress (5): 11 kB | 126/302 kB | 111/125 kB | 10 kB | 77/210 kB
+Progress (5): 11 kB | 126/302 kB | 115/125 kB | 10 kB | 77/210 kB
+Progress (5): 11 kB | 130/302 kB | 115/125 kB | 10 kB | 77/210 kB
+Progress (5): 11 kB | 130/302 kB | 119/125 kB | 10 kB | 77/210 kB
+Progress (5): 11 kB | 130/302 kB | 119/125 kB | 10 kB | 81/210 kB
+Progress (5): 11 kB | 130/302 kB | 123/125 kB | 10 kB | 81/210 kB
+Progress (5): 11 kB | 134/302 kB | 123/125 kB | 10 kB | 81/210 kB
+Progress (5): 11 kB | 134/302 kB | 123/125 kB | 10 kB | 85/210 kB
+Progress (5): 11 kB | 134/302 kB | 125 kB | 10 kB | 85/210 kB    
+Progress (5): 11 kB | 139/302 kB | 125 kB | 10 kB | 85/210 kB
+Progress (5): 11 kB | 139/302 kB | 125 kB | 10 kB | 89/210 kB
+Progress (5): 11 kB | 143/302 kB | 125 kB | 10 kB | 89/210 kB
+Progress (5): 11 kB | 147/302 kB | 125 kB | 10 kB | 89/210 kB
+Progress (5): 11 kB | 151/302 kB | 125 kB | 10 kB | 89/210 kB
+Progress (5): 11 kB | 156/302 kB | 125 kB | 10 kB | 89/210 kB
+Progress (5): 11 kB | 156/302 kB | 125 kB | 10 kB | 94/210 kB
+Progress (5): 11 kB | 160/302 kB | 125 kB | 10 kB | 94/210 kB
+Progress (5): 11 kB | 160/302 kB | 125 kB | 10 kB | 98/210 kB
+Progress (5): 11 kB | 160/302 kB | 125 kB | 10 kB | 102/210 kB
+Progress (5): 11 kB | 160/302 kB | 125 kB | 10 kB | 106/210 kB
+Progress (5): 11 kB | 164/302 kB | 125 kB | 10 kB | 106/210 kB
+Progress (5): 11 kB | 168/302 kB | 125 kB | 10 kB | 106/210 kB
+                                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar (125 kB at 380 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar
+Progress (4): 11 kB | 173/302 kB | 10 kB | 106/210 kB
+Progress (4): 11 kB | 173/302 kB | 10 kB | 111/210 kB
+Progress (4): 11 kB | 177/302 kB | 10 kB | 111/210 kB
+                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar (11 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar
+Progress (3): 181/302 kB | 10 kB | 111/210 kB
+Progress (3): 181/302 kB | 10 kB | 115/210 kB
+Progress (3): 185/302 kB | 10 kB | 115/210 kB
+Progress (3): 185/302 kB | 10 kB | 119/210 kB
+Progress (3): 189/302 kB | 10 kB | 119/210 kB
+Progress (3): 194/302 kB | 10 kB | 119/210 kB
+Progress (3): 194/302 kB | 10 kB | 123/210 kB
+Progress (3): 194/302 kB | 10 kB | 127/210 kB
+Progress (3): 198/302 kB | 10 kB | 127/210 kB
+Progress (3): 198/302 kB | 10 kB | 132/210 kB
+Progress (3): 202/302 kB | 10 kB | 132/210 kB
+Progress (3): 206/302 kB | 10 kB | 132/210 kB
+Progress (3): 206/302 kB | 10 kB | 136/210 kB
+Progress (3): 211/302 kB | 10 kB | 136/210 kB
+Progress (3): 215/302 kB | 10 kB | 136/210 kB
+Progress (3): 219/302 kB | 10 kB | 136/210 kB
+Progress (3): 219/302 kB | 10 kB | 140/210 kB
+Progress (3): 223/302 kB | 10 kB | 140/210 kB
+Progress (3): 223/302 kB | 10 kB | 144/210 kB
+Progress (3): 223/302 kB | 10 kB | 149/210 kB
+Progress (3): 223/302 kB | 10 kB | 153/210 kB
+Progress (3): 223/302 kB | 10 kB | 155/210 kB
+Progress (3): 240/302 kB | 10 kB | 155/210 kB
+Progress (3): 240/302 kB | 10 kB | 159/210 kB
+Progress (3): 240/302 kB | 10 kB | 164/210 kB
+Progress (3): 256/302 kB | 10 kB | 164/210 kB
+Progress (3): 256/302 kB | 10 kB | 168/210 kB
+Progress (3): 257/302 kB | 10 kB | 168/210 kB
+Progress (3): 257/302 kB | 10 kB | 172/210 kB
+Progress (3): 257/302 kB | 10 kB | 176/210 kB
+Progress (3): 257/302 kB | 10 kB | 181/210 kB
+Progress (3): 257/302 kB | 10 kB | 185/210 kB
+Progress (3): 273/302 kB | 10 kB | 185/210 kB
+Progress (3): 273/302 kB | 10 kB | 189/210 kB
+Progress (3): 273/302 kB | 10 kB | 193/210 kB
+Progress (3): 273/302 kB | 10 kB | 197/210 kB
+Progress (3): 273/302 kB | 10 kB | 202/210 kB
+Progress (3): 290/302 kB | 10 kB | 202/210 kB
+Progress (3): 290/302 kB | 10 kB | 206/210 kB
+Progress (3): 290/302 kB | 10 kB | 210/210 kB
+Progress (3): 302 kB | 10 kB | 210/210 kB    
+Progress (3): 302 kB | 10 kB | 210 kB    
+Progress (4): 302 kB | 10 kB | 210 kB | 3.8/73 kB
+Progress (4): 302 kB | 10 kB | 210 kB | 8.0/73 kB
+Progress (4): 302 kB | 10 kB | 210 kB | 12/73 kB 
+Progress (4): 302 kB | 10 kB | 210 kB | 16/73 kB
+Progress (4): 302 kB | 10 kB | 210 kB | 21/73 kB
+Progress (4): 302 kB | 10 kB | 210 kB | 25/73 kB
+Progress (4): 302 kB | 10 kB | 210 kB | 29/73 kB
+Progress (4): 302 kB | 10 kB | 210 kB | 33/73 kB
+Progress (4): 302 kB | 10 kB | 210 kB | 38/73 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 38/73 kB | 0.9/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 38/73 kB | 2.3/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 42/73 kB | 2.3/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 42/73 kB | 3.6/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 46/73 kB | 3.6/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 46/73 kB | 5.0/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 46/73 kB | 6.4/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 46/73 kB | 7.7/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 50/73 kB | 7.7/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 50/73 kB | 9.1/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 50/73 kB | 10/52 kB 
+Progress (5): 302 kB | 10 kB | 210 kB | 54/73 kB | 10/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 54/73 kB | 12/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 59/73 kB | 12/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 59/73 kB | 13/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 63/73 kB | 13/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 66/73 kB | 13/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 66/73 kB | 15/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 66/73 kB | 16/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 66/73 kB | 17/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 66/73 kB | 19/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 66/73 kB | 20/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 66/73 kB | 21/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 70/73 kB | 21/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 21/52 kB   
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 23/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 24/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 25/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 26/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 27/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 29/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 30/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 31/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 33/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 34/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 36/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 37/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 38/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 40/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 41/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 42/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 44/52 kB
+Progress (5): 302 kB | 10 kB | 210 kB | 73 kB | 48/52 kB
+                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar (302 kB at 738 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.core/0.8.12/org.jacoco.core-0.8.12.jar (210 kB at 514 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.12/org.jacoco.report-0.8.12.jar
+Progress (3): 10 kB | 73 kB | 52 kB
+                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar (73 kB at 173 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar (10 kB at 24 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar (52 kB at 118 kB/s)
+Progress (1): 3.8/131 kB
+Progress (1): 7.7/131 kB
+Progress (1): 12/131 kB 
+Progress (1): 16/131 kB
+Progress (1): 20/131 kB
+Progress (1): 37/131 kB
+Progress (1): 53/131 kB
+Progress (1): 57/131 kB
+Progress (1): 73/131 kB
+Progress (1): 90/131 kB
+Progress (1): 106/131 kB
+Progress (1): 122/131 kB
+Progress (1): 131 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.report/0.8.12/org.jacoco.report-0.8.12.jar (131 kB at 220 kB/s)
+[INFO] argLine set to "-javaagent:C:\\Users\\admin\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.12\\org.jacoco.agent-0.8.12-runtime.jar=destfile=D:\\FPT Uni\\ky5\\SWT301\\slot 6\\outputs\\slot6_submission\\sales-management\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ sales-management ---
+[INFO] skip non existing resourceDirectory D:\FPT Uni\ky5\SWT301\slot 6\outputs\slot6_submission\sales-management\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ sales-management ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ sales-management ---
+[INFO] skip non existing resourceDirectory D:\FPT Uni\ky5\SWT301\slot 6\outputs\slot6_submission\sales-management\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ sales-management ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ sales-management ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/util/resources/cldr/provider/CLDRLocaleDataMetaInfo with JaCoCo 0.8.12.202403310830/dbfb6f2.
+	at org.jacoco.agent.rt.internal_aeaf9ab.CoverageTransformer.transform(CoverageTransformer.java:94)
+	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:257)
+	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:594)
+	at java.base/java.lang.ClassLoader.defineClass2(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1052)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:164)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:735)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassInModuleOrNull(BuiltinClassLoader.java:678)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClass(BuiltinClassLoader.java:560)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:602)
+	at java.base/java.lang.Class.forName(Class.java:595)
+	at java.base/java.util.ServiceLoader.loadProvider(ServiceLoader.java:755)
+	at java.base/java.util.ServiceLoader$ModuleServicesLookupIterator.hasNext(ServiceLoader.java:955)
+	at java.base/java.util.ServiceLoader$1.hasNext(ServiceLoader.java:1164)
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1246)
+	at java.base/sun.util.cldr.CLDRLocaleProviderAdapter.<init>(CLDRLocaleProviderAdapter.java:75)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at java.base/sun.util.locale.provider.LocaleProviderAdapter.forType(LocaleProviderAdapter.java:181)
+	at java.base/sun.util.locale.provider.LocaleProviderAdapter.findAdapter(LocaleProviderAdapter.java:280)
+	at java.base/sun.util.locale.provider.LocaleProviderAdapter.getAdapter(LocaleProviderAdapter.java:251)
+	at java.base/java.util.Calendar.createCalendar(Calendar.java:1692)
+	at java.base/java.util.Calendar.getInstance(Calendar.java:1659)
+	at java.base/java.text.SimpleDateFormat.initializeCalendar(SimpleDateFormat.java:680)
+	at java.base/java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:624)
+	at java.base/java.text.SimpleDateFormat.<init>(SimpleDateFormat.java:603)
+	at org.apache.maven.surefire.booter.PpidChecker.createWindowsCreationDateFormat(PpidChecker.java:316)
+	at org.apache.maven.surefire.booter.PpidChecker.<clinit>(PpidChecker.java:71)
+	at org.apache.maven.surefire.booter.ForkedBooter.listenToShutdownCommands(ForkedBooter.java:218)
+	at org.apache.maven.surefire.booter.ForkedBooter.setupBooter(ForkedBooter.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:506)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: Error while instrumenting sun/util/resources/cldr/provider/CLDRLocaleDataMetaInfo with JaCoCo 0.8.12.202403310830/dbfb6f2.
+	at org.jacoco.agent.rt.internal_aeaf9ab.core.instr.Instrumenter.instrumentError(Instrumenter.java:161)
+	at org.jacoco.agent.rt.internal_aeaf9ab.core.instr.Instrumenter.instrument(Instrumenter.java:111)
+	at org.jacoco.agent.rt.internal_aeaf9ab.CoverageTransformer.transform(CoverageTransformer.java:92)
+	... 33 more
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 68
+	at org.jacoco.agent.rt.internal_aeaf9ab.asm.ClassReader.<init>(ClassReader.java:200)
+	at org.jacoco.agent.rt.internal_aeaf9ab.asm.ClassReader.<init>(ClassReader.java:180)
+	at org.jacoco.agent.rt.internal_aeaf9ab.asm.ClassReader.<init>(ClassReader.java:166)
+	at org.jacoco.agent.rt.internal_aeaf9ab.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
+	at org.jacoco.agent.rt.internal_aeaf9ab.core.instr.Instrumenter.instrument(Instrumenter.java:77)
+	at org.jacoco.agent.rt.internal_aeaf9ab.core.instr.Instrumenter.instrument(Instrumenter.java:109)
+	... 34 more
+[INFO] Running vn.edu.fpt.ProductTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 s -- in vn.edu.fpt.ProductTest
+[INFO] Running vn.edu.fpt.SalesServiceTest
+[ERROR] Tests run: 33, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 0.136 s <<< FAILURE! -- in vn.edu.fpt.SalesServiceTest
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateDiscount_returnsExpected(String, double, double)[3] -- Time elapsed: 0.012 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: D03 ==> expected: <50.0> but was: <100.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateDiscount_returnsExpected(SalesServiceTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateDiscount_returnsExpected(String, double, double)[4] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: D04 ==> expected: <249.9995> but was: <499.999>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateDiscount_returnsExpected(SalesServiceTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.classifyCustomer_returnsExpected(String, double, String)[7] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: C07 ==> expected: <VIP> but was: <GOLD>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at vn.edu.fpt.TestEvidence.value(TestEvidence.java:22)
+	at vn.edu.fpt.SalesServiceTest.classifyCustomer_returnsExpected(SalesServiceTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(String, double, int, double)[1] -- Time elapsed: 0.008 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: T01 ==> expected: <1475.0> but was: <553.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(SalesServiceTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(String, double, int, double)[2] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: T02 ==> expected: <1900.0> but was: <1152.2>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(SalesServiceTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(String, double, int, double)[3] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: T03 ==> expected: <4500.0> but was: <2752.2>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(SalesServiceTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(String, double, int, double)[4] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: T04 ==> expected: <8500.0> but was: <5502.2>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(SalesServiceTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(String, double, int, double)[5] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: T05 ==> expected: <150.0> but was: <151.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateTotal_returnsExpected(SalesServiceTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateShippingFee_returnsExpected(String, double, double)[3] -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: H03 ==> expected: <0.0> but was: <50.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateShippingFee_returnsExpected(SalesServiceTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.classifyCustomer_rejectsInvalidInput -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: C09 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:39)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3131)
+	at vn.edu.fpt.TestEvidence.exception(TestEvidence.java:26)
+	at vn.edu.fpt.SalesServiceTest.classifyCustomer_rejectsInvalidInput(SalesServiceTest.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateSubtotal_returnsExpected(String, double, int, double)[1] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: S01 ==> expected: <1500.0> but was: <503.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateSubtotal_returnsExpected(SalesServiceTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateSubtotal_returnsExpected(String, double, int, double)[2] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: S02 ==> expected: <2000.0> but was: <1002.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateSubtotal_returnsExpected(SalesServiceTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] vn.edu.fpt.SalesServiceTest.calculateSubtotal_returnsExpected(String, double, int, double)[3] -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: S03 ==> expected: <0.01> but was: <1.01>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at vn.edu.fpt.TestEvidence.number(TestEvidence.java:18)
+	at vn.edu.fpt.SalesServiceTest.calculateSubtotal_returnsExpected(SalesServiceTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:807)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   SalesServiceTest.calculateDiscount_returnsExpected:33 D03 ==> expected: <50.0> but was: <100.0>
+[ERROR]   SalesServiceTest.calculateDiscount_returnsExpected:33 D04 ==> expected: <249.9995> but was: <499.999>
+[ERROR]   SalesServiceTest.calculateShippingFee_returnsExpected:43 H03 ==> expected: <0.0> but was: <50.0>
+[ERROR]   SalesServiceTest.calculateSubtotal_returnsExpected:18 S01 ==> expected: <1500.0> but was: <503.0>
+[ERROR]   SalesServiceTest.calculateSubtotal_returnsExpected:18 S02 ==> expected: <2000.0> but was: <1002.0>
+[ERROR]   SalesServiceTest.calculateSubtotal_returnsExpected:18 S03 ==> expected: <0.01> but was: <1.01>
+[ERROR]   SalesServiceTest.calculateTotal_returnsExpected:54 T01 ==> expected: <1475.0> but was: <553.0>
+[ERROR]   SalesServiceTest.calculateTotal_returnsExpected:54 T02 ==> expected: <1900.0> but was: <1152.2>
+[ERROR]   SalesServiceTest.calculateTotal_returnsExpected:54 T03 ==> expected: <4500.0> but was: <2752.2>
+[ERROR]   SalesServiceTest.calculateTotal_returnsExpected:54 T04 ==> expected: <8500.0> but was: <5502.2>
+[ERROR]   SalesServiceTest.calculateTotal_returnsExpected:54 T05 ==> expected: <150.0> but was: <151.0>
+[ERROR]   SalesServiceTest.classifyCustomer_rejectsInvalidInput:84 C09 ==> Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+[ERROR]   SalesServiceTest.classifyCustomer_returnsExpected:69 C07 ==> expected: <VIP> but was: <GOLD>
+[INFO] 
+[ERROR] Tests run: 42, Failures: 13, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.934 s
+[INFO] Finished at: 2026-10-06T12:11:15+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project sales-management: There are test failures.
+[ERROR] 
+[ERROR] Please refer to D:\FPT Uni\ky5\SWT301\slot 6\outputs\slot6_submission\sales-management\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

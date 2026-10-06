@@ -1,0 +1,10 @@
+Test ID,Method,Input,Expected,Actual,Result
+"P01","Product","P01; Pen; 0.01; 1","P01; Pen; 0.01; 1","P01; Pen; 0.01; 1","PASS"
+"P02","Product","id=null; name=Pen; price=10.0; quantity=1","IllegalArgumentException: Product ID is required","IllegalArgumentException: Product ID is required","PASS"
+"P03","Product","id=; name=Pen; price=10.0; quantity=1","IllegalArgumentException: Product ID is required","IllegalArgumentException: Product ID is required","PASS"
+"P04","Product","id=P01; name=null; price=10.0; quantity=1","IllegalArgumentException: Product name is required","IllegalArgumentException: Product name is required","PASS"
+"P05","Product","id=P01; name=; price=10.0; quantity=1","IllegalArgumentException: Product name is required","IllegalArgumentException: Product name is required","PASS"
+"P06","Product","id=P01; name=Pen; price=0.0; quantity=1","IllegalArgumentException: Price must be greater than 0","IllegalArgumentException: Price must be greater than 0","PASS"
+"P07","Product","id=P01; name=Pen; price=-1.0; quantity=1","IllegalArgumentException: Price must be greater than 0","IllegalArgumentException: Price must be greater than 0","PASS"
+"P08","Product","id=P01; name=Pen; price=10.0; quantity=0","IllegalArgumentException: Quantity must be greater than 0","IllegalArgumentException: Quantity must be greater than 0","PASS"
+"P09","Product","id=P01; name=Pen; price=10.0; quantity=-1","IllegalArgumentException: Quantity must be greater than 0","IllegalArgumentException: Quantity must be greater than 0","PASS"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AccountService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">account-registration</a> &gt; <a href="index.source.html" class="el_package">vn.edu.fpt</a> &gt; <span class="el_source">AccountService.java</span></div><h1>AccountService.java</h1><pre class="source lang-java linenums">package vn.edu.fpt;
+import java.util.regex.Pattern;
+
+/** Pure validation for Lab 2; no database or duplicate-account requirement. */
+<span class="fc" id="L5">public class AccountService {</span>
+    // Teaching scope: common ASCII email form, with a dotted domain and alphabetic TLD.
+<span class="fc" id="L7">    private static final Pattern EMAIL = Pattern.compile(</span>
+        &quot;[A-Za-z0-9_+%-]+(?:\\.[A-Za-z0-9_+%-]+)*@&quot;
+        + &quot;[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?&quot;
+        + &quot;(?:\\.[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)*\\.[A-Za-z]{2,}&quot;);
+    public boolean registerAccount(String username, String password, String email) {
+<span class="fc bfc" id="L12" title="All 6 branches covered.">        return username != null &amp;&amp; !username.isBlank()</span>
+<span class="fc bfc" id="L13" title="All 4 branches covered.">            &amp;&amp; password != null &amp;&amp; password.length() &gt; 6 &amp;&amp; isValidEmail(email);</span>
+    }
+    public boolean isValidEmail(String email) {
+<span class="fc bfc" id="L16" title="All 4 branches covered.">        return email != null &amp;&amp; EMAIL.matcher(email).matches();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
