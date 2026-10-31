@@ -1,3 +1,15 @@
+# SWT301 — CI Maven: Exercise 1 và Exercise 2
+
+[![MathUtil CI](https://github.com/tam0605/SWT301_MyTam_DE190705/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/tam0605/SWT301_MyTam_DE190705/actions/workflows/maven.yml?query=branch%3Amain)
+[![Sales Management CI](https://github.com/tam0605/SWT301_MyTam_DE190705/actions/workflows/sales-ci.yml/badge.svg?branch=main)](https://github.com/tam0605/SWT301_MyTam_DE190705/actions/workflows/sales-ci.yml?query=branch%3Amain)
+
+Phạm vi bài nộp: Exercise 1 MathUtil và Exercise 2 Sales Management trong đề CI Maven. Không có Exercise 3, Jest hoặc Report5 trong gói CI này. Nhánh nộp: `main` của repository cá nhân tam0605/SWT301_MyTam_DE190705. Các bài Lab2 đã có trong repository được giữ lại; phần CI lần này chỉ gồm MathUtil và Sales Management.
+
+
+[Hướng dẫn CI Exercise 1–2](README_CI_EX1_EX2.md) · [Kết quả CI](CI_RESULTS.md)
+
+---
+
 # Bộ bài nộp SWT301 Slot 6
 
 Hoàn thành hai bài: Sales Management System và Lab 2 AccountService.

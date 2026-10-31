@@ -1,0 +1,11 @@
+**/target/
+**/staging/
+**/nbproject/private/
+**/nbbuild/
+**/nbdist/
+*.class
+*.jar
+*.war
+*.ear
+.DS_Store
+Thumbs.db
